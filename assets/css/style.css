@@ -6,7 +6,7 @@
 [class*="col-"]{
   background-color:#FEC0CB ;
   border: 1px solid #000000;
-  line-height: 200px;
+  line-height: 189px;
 }
 
 .container [class*="col-"] .container [class*="col-"]{
