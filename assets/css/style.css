@@ -1,23 +1,33 @@
-.container{
-  text-align: center; 
-}
-
 
 [class*="col-"]{
   background-color:#FEC0CB ;
   border: 1px solid #000000;
   line-height: 200px;
+  height: 200px;
+  text-align: center
+}
+
+.relative{
+  position: relative;
 }
 
 .container [class*="col-"] .container [class*="col-"]{
   background-color:#F08080 ;
   border: 1px solid #FFFFFF;
-  margin: 1% auto;
-  line-height: normal;
-  padding: 90px 20px;
-  max-height: 195px;
+  height: 100%;
 }
 
-.container [class*="col-"] .container{
-  width: 98%;
+.col-6>.container{
+  height:100%;
+  padding: 5px;
 }
+
+span{
+  position: absolute;
+  top :50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 20px;
+} 
+
+
