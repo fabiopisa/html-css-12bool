@@ -6,13 +6,16 @@
 [class*="col-"]{
   background-color:#FEC0CB ;
   border: 1px solid #000000;
-  line-height: 189px;
+  line-height: 200px;
 }
 
 .container [class*="col-"] .container [class*="col-"]{
   background-color:#F08080 ;
   border: 1px solid #FFFFFF;
   margin: 1% auto;
+  line-height: normal;
+  padding: 90px 20px;
+  max-height: 195px;
 }
 
 .container [class*="col-"] .container{
